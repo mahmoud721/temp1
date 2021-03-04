@@ -1,0 +1,206 @@
+*{
+     box-sizing:border-box;
+     margin: 0;
+}
+.clear{
+     clear:both;
+}
+
+/* <!-- .......................start header......................> -- */
+header{
+     position: fixed;
+     width: 1663px;
+     margin-top: -72px;
+     height: 68px;
+     background-color: white;
+     box-shadow: 0 2px 5px 0 gray ,0 2px 10px 0 gray;
+     font-family: 'Times New Roman', Georgia, serif
+     text-transform: capitalize;
+     z-index: 1; 
+}
+.logo{
+     float: left;
+     letter-spacing: 4px;
+     text-decoration: none;
+     padding: 15px;
+     margin-left: 20px;
+     transition: 1s ;   
+}
+.logo:hover,.links li:hover{
+     background-color: rgb(180, 165, 165);
+}
+.logo a{
+     text-decoration: none;
+     color: black;   
+}
+.links{
+     display: flex;
+     list-style: none;
+     float: right;
+     text-transform: capitalize;
+     font-family: 'Times New Roman', Georgia, serif
+}
+.links li{
+     margin: 10px 15px;
+     padding:5px;
+     transition: 1s;
+     cursor: pointer;
+     letter-spacing: 2px;       
+}
+/* <!-- <.........................end header....................... --> */
+.image1{
+     background-image: url("1.jpg");
+     background-size: cover;
+     width: 1600px;
+     height: 800px;
+     margin: 75px 30px;
+     position: relative;   
+}
+h1{
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     padding: 20px;
+     letter-spacing: 4px;
+     font-family: 'Times New Roman', Georgia, serif;
+     font-style:italic;
+     opacity: 0.6;
+}
+/* <!-- <.........................end header....................... --> */
+.image2{
+     background-image: url("2.jpg");
+     background-size: cover;
+     width: 567px;;
+     height: 600px;
+     margin-top: 88px;
+     margin-left: 186px;
+     opacity: 0.75;
+}
+.pargraphs{
+   display: block;
+    width: 518px;;
+    height: 568px;  
+    margin-top: -569px;
+    margin-left: 811px;
+    font-size: 18px;
+    text-align:justify;
+    line-height: 1.5;
+}
+.pargraphs h2{
+   letter-spacing: 2px;
+   text-align: center;
+   font-size: 35px;
+}
+.pargraphs h3{
+   letter-spacing: 2px;
+   text-align: center;
+}
+.pargraphs p{
+   text-align: justify;
+   font-size: 18px;
+}
+.pargraphs p:nth-of-type(2){
+   opacity: 0.6;
+}
+span{
+     background: #8080802e;
+     padding: 4px;
+}
+/* .............................................> */
+hr{
+   width: 80%;
+   margin: auto;
+   margin-top: 82px;
+   color: silver;
+   opacity: 0.4;
+
+} 
+.image3{
+     background-image: url("3.jpg");
+     background-size: cover;
+     width: 570px;
+     height: 883px;
+     margin-top:88px ;
+     margin-left:800px ;
+     opacity: 0.75;
+}
+.pargraphs1{
+     display: block;
+     width: 642px;;
+     height: 568px;  
+     margin-top: -851px;
+     margin-left: 198px;
+     line-height: 1.5;
+     text-align: justify ;
+
+}   
+.pargraphs1 h3{
+     font-family: "playfair display";
+     display: block;
+     letter-spacing: 5px;
+     font-size: 34px;
+     margin-left: -121px;
+     margin-bottom: 30px;
+     font-weight: bold;
+     text-align: center;
+     opacity: 0.77;
+}
+.pargraphs1 h4{
+    padding: 20px 0;
+    letter-spacing: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.77;
+}
+.pargraphs1 p{
+     display: block;
+     box-sizing: border-box;
+     font-size: 12px;
+     opacity: 0.75;
+}
+.hr2{
+     width: 80%;
+     margin: auto;
+     margin-top: 373px;
+     color: silver;
+     opacity: 0.4;
+}
+.lastcontiner{
+    display: block;
+    text-align: justify;
+    margin-left:200px;
+    line-height: 2;
+    font-family: 'Times New Roman',Georgia,serif;
+    font-size: 15px;
+    width: 1058px;
+    word-spacing:3px ;    
+}
+.lastcontiner h3{
+     letter-spacing: 3px;
+     font-size: 36px;
+}
+p:nth-of-type(2){
+     font-size: 18px;
+     font-weight: bolder;
+     color: #607d8b;
+}
+input{
+     width: 100%;
+     border: none;
+     border-bottom: 1px solid #ccc;
+     padding: 8px;
+     font: inherit;     
+}
+button{
+     padding:10px ;
+}
+footer{
+     margin-top:100px;
+     text-align:center;
+     background: #f1f1f1;
+     padding: 50px 0;
+     font-size: 15px;
+}
+.afooter:hover{
+     color: chartreuse;
+}
